@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>haip-vci</string>
+				<string>openid-credential-offer</string>
+				<string>haip-vp</string>
+				<string>haip</string>
+				<string>eudi-openid4vp</string>
+				<string>mdoc-openid4vp</string>
+				<string>openid4vp</string>
+			</array>
+		</dict>
+	</array>
+	<key>Configuration</key>
+	<string>DiiaStage</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>e-Ukraine-Regular.otf</string>
+		<string>e-Ukraine-Bold.otf</string>
+		<string>e-Ukraine-Light.otf</string>
+		<string>e-Ukraine-Medium.otf</string>
+		<string>e-UkraineHead-Regular.otf</string>
+		<string>e-UkraineHead-Light.otf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+	</array>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>ua.govstack.digitalwallet.deferred-issuance-refresh</string>
+	</array>
+</dict>
+</plist>

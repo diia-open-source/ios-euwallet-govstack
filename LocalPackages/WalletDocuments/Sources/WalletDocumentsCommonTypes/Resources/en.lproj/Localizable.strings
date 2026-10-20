@@ -1,0 +1,32 @@
+/*
+  Localizable.strings
+
+
+*/
+
+// MARK: - General
+"general_qr_code" = "QR code";
+"general_barcode" = "Barcode";
+"general_update_code_action" = "Update the code";
+"general_update_code_action_en" = "Update the code";
+"document_general_qr_code_en" = "QR-code";
+"document_general_barcode_en" = "Barcode";
+"document_general_qr_session_time" = "QR CODE VALID FOR 3 MIN";
+"document_general_retry" = "Try again";
+"document_general_retry_en" = "Try again";
+"document_general_session_time" = "Code valid for";
+"document_general_registry_error" = "No registry\naccess";
+"document_general_registry_error_en" = "No registry access";
+"document_general_registry_error_description" = "There is no connection to the registry. Please try again later.";
+"document_general_registry_error_description_en" = "There is no connection to the registry. Please try again later.";
+"error_code_expired" = "The code has expired";
+"error_code_expired_en" = "The code has expired";
+
+// MARK: - Accessibility
+"documents_collection_accessibility_verification_view_content" = "Document QR code. It will be valid for 3 minutes.";
+"documents_collection_accessibility_verification_view_offline" = "Document \"%@\" Inactive";
+"documents_collection_accessibility_verification_view" = "Document \"%@\"";
+"documents_collection_accessibility_verification_view_hint" = "Tap to open document information.";
+"document_general_error_codes_not_loaded" = "Verification codes failed\nto upload";
+"document_general_error_codes_not_loaded_en" = "Verification codes failed\nto upload";
+"document_general_qr_code_header" = "QR CODE";

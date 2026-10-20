@@ -1,0 +1,86 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "d120af1e8638c7da36c8481fd61a66c0c08dc4fc",
+        "version" : "5.4.4"
+      }
+    },
+    {
+      "identity" : "commontypes",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitlab.diia.org.ua/diia-public/ios/commontypes.git",
+      "state" : {
+        "branch" : "govstack/euwallet",
+        "revision" : "515a2ed9c74445c0fbf288605600e32d45559f7a"
+      }
+    },
+    {
+      "identity" : "ios-core-uicomponents",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitlab.diia.org.ua/diia-public/ios/ios-core-uicomponents.git",
+      "state" : {
+        "branch" : "govstack/euwallet",
+        "revision" : "fb82ef5f46f259a26b7aff1c771cd55848a640c8"
+      }
+    },
+    {
+      "identity" : "ios-mvpmodule",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/diia-open-source/ios-mvpmodule.git",
+      "state" : {
+        "revision" : "5d9ed70ec64b8557e0b85329628da81fe1df7081",
+        "version" : "1.0.16"
+      }
+    },
+    {
+      "identity" : "ios-network",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/diia-open-source/ios-network.git",
+      "state" : {
+        "revision" : "e64e05aac4eda9e40331bc94110545ea585de39c",
+        "version" : "1.0.13"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "revision" : "2ef543ee21d63734e1c004ad6c870255e8716c50",
+        "version" : "7.12.0"
+      }
+    },
+    {
+      "identity" : "lottie-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-spm.git",
+      "state" : {
+        "revision" : "69faaefa7721fba9e434a52c16adf4329c9084db",
+        "version" : "4.6.0"
+      }
+    },
+    {
+      "identity" : "reactivekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DeclarativeHub/ReactiveKit.git",
+      "state" : {
+        "revision" : "0e553b1af3bc3b6932fa2b0207b11244ba69c1db",
+        "version" : "3.16.4"
+      }
+    },
+    {
+      "identity" : "swiftmessages",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftKickMobile/SwiftMessages",
+      "state" : {
+        "revision" : "62e12e138fc3eedf88c7553dd5d98712aa119f40",
+        "version" : "9.0.9"
+      }
+    }
+  ],
+  "version" : 2
+}

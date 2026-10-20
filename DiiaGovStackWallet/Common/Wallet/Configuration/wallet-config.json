@@ -1,0 +1,35 @@
+{
+  "issuers": [
+    {
+      "host": "bb-wallet-issuer.demo3.ukrohost.com",
+      "displayPriority": 2,
+      "metadataTrustRoots": ["PID-Issuer-CA", "demo3-ca-cert"]
+    },
+    {
+      "host": "issuer.eudiw.dev",
+      "displayPriority": 1,
+      "metadataTrustRoots": ["pidissuerca02_ut"]
+    },
+    {
+      "host": "issuer-backend.eudiw.dev",
+      "displayPriority": 0,
+      "metadataTrustRoots": ["pidissuerca02_ut"]
+    }
+  ],
+  "verifierReaderTrustRoots": [
+    "demo3-ca-cert",
+    "pidissuerca02_cz",
+    "pidissuerca02_ee",
+    "pidissuerca02_eu",
+    "pidissuerca02_lu",
+    "pidissuerca02_nl",
+    "pidissuerca02_pt",
+    "pidissuerca02_ut",
+    "r45_staging",
+    "esoz_cert",
+    "PID-Issuer-CA"
+  ],
+  "walletProviderBaseURL": "https://wallet-provider.eudiw.dev",
+  "clientId": "wallet-dev",
+  "authFlowRedirectionURI": "eu.europa.ec.euidi://authorization"
+}

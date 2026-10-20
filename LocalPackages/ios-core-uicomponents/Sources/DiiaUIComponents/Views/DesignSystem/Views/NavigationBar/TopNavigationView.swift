@@ -1,0 +1,146 @@
+
+import UIKit
+import DiiaCommonTypes
+
+/// design_system_code: navigationPanelMlc
+public final class TopNavigationView: UIView {
+
+    // MARK: - Outlets
+    @IBOutlet weak private var titleLabel: UILabel!
+
+    @IBOutlet weak private var backButton: UIButton!
+    @IBOutlet weak private var loadingContainer: UIView!
+    @IBOutlet weak private var loadingIndicator: UIProgressView!
+    @IBOutlet weak private var loadingLabel: UILabel!
+    
+    @IBOutlet weak private var stepContainer: UIView!
+    @IBOutlet weak private var stepView: PublicServiceStepView!
+    
+    @IBOutlet weak private var contextButton: UIButton!
+
+    // MARK: - Properties
+    private var onCloseClick: Callback?
+    private var onContextClick: Callback?
+
+    // MARK: - Init
+    public override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        fromNib(bundle: Bundle.module)
+        translatesAutoresizingMaskIntoConstraints = false
+        setup()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        
+        fromNib(bundle: Bundle.module)
+    }
+    
+    // MARK: - Life Cycle
+    public override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        setup()
+    }
+
+    // MARK: - Setup
+    private func setup() {
+        setupUI()
+        setupAccessibility()
+        loadingContainer.isHidden = true
+        stepContainer.isHidden = true
+        loadingLabel.text = R.Strings.general_loading.localized()
+    }
+    
+    // MARK: - Accessibility
+    private func setupAccessibility() {
+        isAccessibilityElement = false
+        
+        backButton.isAccessibilityElement = true
+        backButton.accessibilityTraits = .button
+        backButton.accessibilityLabel = R.Strings.general_back.localized()
+        
+        titleLabel.isAccessibilityElement = true
+        titleLabel.accessibilityTraits = .header
+        
+        contextButton.isAccessibilityElement = true
+        contextButton.accessibilityTraits = .button
+        contextButton.accessibilityLabel = R.Strings.general_context_menu_open.localized()
+        
+        loadingIndicator.isAccessibilityElement = false
+        
+        loadingLabel.isAccessibilityElement = true
+        loadingLabel.accessibilityTraits = .staticText
+        loadingLabel.accessibilityLabel = R.Strings.general_loading.localized()
+    }
+    
+    private func updateAccessibilityElements() {
+        accessibilityElements = [backButton, titleLabel, contextButton].map({ $0 as Any })
+        UIAccessibility.post(notification: .layoutChanged, argument: self.titleLabel)
+    }
+    
+    // MARK: - Public Methods
+    public func setupUI(titleFont: UIFont = FontBook.smallHeadingFont, titleColor: UIColor = .black, backgroundColor: UIColor = .clear, buttonTintColor: UIColor = .black) {
+        backButton.tintColor = buttonTintColor
+        titleLabel?.font = titleFont
+        titleLabel?.textColor = titleColor
+        self.backgroundColor = backgroundColor
+        loadingLabel.font = FontBook.usualFont
+    }
+    
+    public func setupTitle(title: String?) {
+        titleLabel.text = title
+        titleLabel.accessibilityLabel = title
+    }
+    
+    public func setupOnClose(callback: Callback?) {
+        self.onCloseClick = callback
+    }
+    
+    public func setupOnContext(callback: Callback?) {
+        self.contextButton.isHidden = callback == nil
+        self.onContextClick = callback
+    }
+    
+    public func setupLoading(isActive: Bool) {
+        loadingIndicator.layer.sublayers?.forEach { $0.removeAllAnimations() }
+        loadingIndicator.setProgress(0.0, animated: false)
+        loadingContainer.isHidden = !isActive
+        
+        if !isActive {
+            updateAccessibilityElements()
+            return
+        }
+        
+        self.loadingIndicator.layoutIfNeeded()
+        self.loadingIndicator.setProgress(1.0, animated: false)
+        UIView.animate(
+            withDuration: Constants.progressAnimationDuration,
+            delay: 0,
+            options: [.repeat],
+            animations: { [unowned self] in self.loadingIndicator.layoutIfNeeded() }
+        )
+    }
+    
+    public func setStepCounter(_ stepCounter: StepCounter?) {
+        stepContainer.isHidden = stepCounter == nil
+        stepView.setStep(stepCounter?.currentStep ?? 1, from: stepCounter?.numberOfSteps ?? 1)
+    }
+    
+    // MARK: - Actions
+    @IBAction private func contextMenuClicked() {
+        onContextClick?()
+    }
+    
+    @IBAction private func close() {
+        onCloseClick?()
+    }
+}
+
+// MARK: - Constants
+extension TopNavigationView {
+    private enum Constants {
+        static let progressAnimationDuration: TimeInterval = 1.5
+    }
+}

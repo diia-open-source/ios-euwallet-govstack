@@ -1,0 +1,24 @@
+// MARK: - DocumentsGeneral
+"document_general_reachability_error" = "No internet access. Data is not being updated • No internet access. Data is not being updated • ";
+"document_general_change_documents_order" = "Change the order of documents";
+"document_general_add_document" = "Add document";
+"document_general_error_codes_not_loaded" = "Verification codes failed\nto upload";
+"document_general_error_codes_not_loaded_en" = "Verification codes failed\nto upload";
+
+// MARK: - Accessibility
+"documents_collection_accessibility_reachability_error" = "No internet access. Data is not being updated.";
+"document_general_magic_tap_hint" = "Double tap with two fingers to view document contents";
+"document_open_in_stack_accessibility" = "Open nested documents";
+"add_documents_accessibility_title" = "Add document/change the order of documents";
+"add_documents_accessibility_hint" = "Double tap with two fingers to select";
+
+// MARK: - PID Activation
+"pid_activate_title" = "Your wallet has been\ncreated!";
+"pid_activate_description" = "To activate your wallet, add your Personal Identification Document.\nAfter that, you’ll be able to add other\ndocuments.";
+"pid_activate_button" = "Start";
+
+// MARK: - General
+"general_accessibility_close" = "Close";
+"general_accessibility_back" = "Back";
+"document_general_retry" = "Try again";
+"document_general_retry_en" = "Try again";

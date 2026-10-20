@@ -1,0 +1,26 @@
+// MARK: - General
+"general_number_copied" = "Number copied";
+
+"diia_id_identify_please" = "To create a digital signature, please verify your identity";
+
+// MARK: - Authorization
+"authorization_error_title" = "Authorization failed";
+"authorization_error_description" = "Please try again. If the problem persists, copy the device number and send it to our support team.";
+"authorization_error_button_title" = "Try again";
+"authorization_stay_in_app" = "No, stay in the app";
+"authorization_error_already_auth" = "You are already authorized in the app.";
+"authorization_error_logout_first" = "To authorize with a different method, you must first log out of the app.";
+
+// MARK: - Accessibilityзшт
+"general_accessibility_close" = "Close";
+"auth_accessibility_methods_title_hint" = "Choose a convenient authorization method below.";
+"auth_accessibility_methods_close_hint" = "Double tap to close the authorization methods selection.";
+"auth_accessibility_methods_bank" = "Sign in via %@";
+"auth_accessibility_method_photoID" = "Sign in via photo verification";
+
+// MARK: - Menu
+"menu_copy_uid" = "Copy device number";
+"menu_logout" = "Log out";
+"menu_logout_title" = "Do you want to log out of the app?";
+"menu_logout_message" = "Re-authentication will be required for login";
+"menu_logout_cancel" = "Cancel";

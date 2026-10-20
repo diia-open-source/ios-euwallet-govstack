@@ -1,0 +1,9 @@
+variables:
+  GITHUB_REPO_NAME: ios-uicomponents
+  USE_XCODE: "false"
+  DEPS_REPLACE: "ios-core-networklayer:ios-network ios-core-module:ios-mvpmodule commontypes:ios-commontypes ios-core-uicomponents:ios-uicomponents core-common-services:ios-commonservices PublicServices-Core:ios-publicservices documentscore:ios-documents authorization:ios-authorization ios-diia-simplified:ios-diia"
+
+include:
+  project: diia-inhouse/ci
+  ref: main
+  file: oss/ios.yml

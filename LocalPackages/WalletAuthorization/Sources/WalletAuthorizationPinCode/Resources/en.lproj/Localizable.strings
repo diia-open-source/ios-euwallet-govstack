@@ -1,0 +1,46 @@
+// MARK: - Emoji
+
+// MARK: - Accessibility
+"auth_accessibility_pincode_clear_button_label" = "Delete";
+"general_accessibility_back_button_label" = "Back";
+"general_accessibility_back_button_hint" = "Double tap to go back to the previous step.";
+"general_accessibility_back_button_step" = "Double tap to go back to the previous step.";
+"auth_accessibility_biometry_request_approve" = "Double tap to allow sign-in with biometrics.";
+"auth_accessibility_biometry_request_later" = "Double tap to proceed to the next step";
+"general_accessibility_incorrect_password" = "Incorrect code entered. Please try again";
+"auth_accessibility_pincode_header_hint" = "Double tap on digits to enter them";
+
+// MARK: - General
+"general_step" = "Step %@ of %@";
+"general_cancel" = "Cancel";
+"general_cancel_hint" = "Tap to cancel";
+
+// MARK: - Authorization
+"authorization_create_pincode" = "Create a\n%@-digit code";
+"authorization_repeat_pincode" = "Re-enter the\n%@-digit code";
+
+"authorization_allow" = "Allow";
+"authorization_allow_later" = "Maybe later";
+
+"authorization_new_pin_details" = "You'll use this code to\nsign in to the app";
+"authorization_repeat_pin_details" = "Make sure you entered it correctly\nand can remember it";
+"authorization_template_cancel_title" = "Cancel process?";
+"authorization_template_cancel_description" = "Are you sure you want to cancel the identity verification process?";
+"authorization_template_cancel_button_primary" = "Yes, cancel";
+"authorization_template_cancel_button_secondary" = "No, continue";
+
+// MARK: - Biometry
+"authorization_biometry_fallback_title" = "Use Passcode";
+"authorization_biometry_reason" = "Authentication required to access the app";
+"biometry_setup_title" = "Allow sign-in\nwith %@";
+"biometry_setup_description" = "Use %@ to sign in";
+"biometry_setup_allow" = "Allow";
+"biometry_setup_maybe_later" = "Maybe later";
+"biometry_accessibility_button_hint" = "Double tap to authenticate with %@";
+"general_ok" = "Got it";
+
+// MARK: - Menu
+"menu_change_pin_current" = "Enter your current\n%@-digit code";
+"menu_change_pin_olddescr" = "To confirm your identity before changing\nthe sign-in code";
+"menu_change_pin_new" = "Create a %@-digit code";
+"menu_change_pin_repeat" = "Re-enter the %@-digit code";

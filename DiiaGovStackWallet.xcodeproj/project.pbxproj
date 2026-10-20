@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1697A2AF2F43A80A000FA2D0 /* WalletDocumentsCommonTypes in Frameworks */ = {isa = PBXBuildFile; productRef = 1697A2AE2F43A80A000FA2D0 /* WalletDocumentsCommonTypes */; };
+		1697A2B12F43A80A000FA2D0 /* WalletDocumentsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1697A2B02F43A80A000FA2D0 /* WalletDocumentsCore */; };
+		332236042B87927800E6B7AF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 332236032B87927700E6B7AF /* README.md */; };
+		339AE86C2B5E6C8500C21112 /* DiiaMVPModule in Frameworks */ = {isa = PBXBuildFile; productRef = 339AE86B2B5E6C8500C21112 /* DiiaMVPModule */; };
+		33C550412B48B6A200E100CD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 33C550402B48B6A200E100CD /* Lottie */; };
+		8B8ADB992F60BFA800958197 /* WalletAuthorization in Frameworks */ = {isa = PBXBuildFile; productRef = 8B8ADB982F60BFA800958197 /* WalletAuthorization */; };
+		8B8ADB9B2F60BFA800958197 /* WalletAuthorizationPinCode in Frameworks */ = {isa = PBXBuildFile; productRef = 8B8ADB9A2F60BFA800958197 /* WalletAuthorizationPinCode */; };
+		9487B53F2B76594800571A1D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9487B53E2B76594800571A1D /* Alamofire */; };
+		9487B5422B765B8600571A1D /* ReactiveKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9487B5412B765B8600571A1D /* ReactiveKit */; };
+		AABB00C0000000000000DE01 /* WalletCore in Frameworks */ = {isa = PBXBuildFile; productRef = AABB00C0000000000000DE02 /* WalletCore */; };
+		AABB00C1000000000000DE01 /* WalletTransaction in Frameworks */ = {isa = PBXBuildFile; productRef = AABB00C1000000000000DE02 /* WalletTransaction */; };
+		AABB00C2000000000000DE01 /* WalletIssuing in Frameworks */ = {isa = PBXBuildFile; productRef = AABB00C2000000000000DE02 /* WalletIssuing */; };
+		AABB00C3000000000000DE01 /* WalletSharing in Frameworks */ = {isa = PBXBuildFile; productRef = AABB00C3000000000000DE02 /* WalletSharing */; };
+		AABB00C4000000000000DE01 /* WalletGallery in Frameworks */ = {isa = PBXBuildFile; productRef = AABB00C4000000000000DE02 /* WalletGallery */; };
+		AABB00C5000000000000DE01 /* WalletAddDocument in Frameworks */ = {isa = PBXBuildFile; productRef = AABB00C5000000000000DE02 /* WalletAddDocument */; };
+		AABB00C6000000000000DE01 /* WalletMenu in Frameworks */ = {isa = PBXBuildFile; productRef = AABB00C6000000000000DE02 /* WalletMenu */; };
+		AABB00C7000000000000DE01 /* WalletContextMenu in Frameworks */ = {isa = PBXBuildFile; productRef = AABB00C7000000000000DE02 /* WalletContextMenu */; };
+		AABB00C8000000000000DE01 /* WalletSplashScreen in Frameworks */ = {isa = PBXBuildFile; productRef = AABB00C8000000000000DE02 /* WalletSplashScreen */; };
+		AABB00C9000000000000DE01 /* WalletScannerBarcode in Frameworks */ = {isa = PBXBuildFile; productRef = AABB00C9000000000000DE02 /* WalletScannerBarcode */; };
+		AABB00CA000000000000DE01 /* WalletAppStorage in Frameworks */ = {isa = PBXBuildFile; productRef = AABB00CA000000000000DE02 /* WalletAppStorage */; };
+		AABB00CB000000000000DE01 /* WalletEngine in Frameworks */ = {isa = PBXBuildFile; productRef = AABB00CB000000000000DE02 /* WalletEngine */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		332236032B87927700E6B7AF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		42F9229F29FBDC820072DDC1 /* DiiaGovStackWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiiaGovStackWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8B4528BF2F641C060024707E /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 42F9229E29FBDC820072DDC1 /* DiiaGovStackWallet */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8B4528212F641C060024707E /* DiiaGovStackWallet */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (8B4528BF2F641C060024707E /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = DiiaGovStackWallet; sourceTree = "<group>"; };
+		8B8ADB962F60BEA600958197 /* LocalPackages */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = LocalPackages; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42F9229C29FBDC820072DDC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1697A2AF2F43A80A000FA2D0 /* WalletDocumentsCommonTypes in Frameworks */,
+				8B8ADB992F60BFA800958197 /* WalletAuthorization in Frameworks */,
+				9487B53F2B76594800571A1D /* Alamofire in Frameworks */,
+				1697A2B12F43A80A000FA2D0 /* WalletDocumentsCore in Frameworks */,
+				33C550412B48B6A200E100CD /* Lottie in Frameworks */,
+				9487B5422B765B8600571A1D /* ReactiveKit in Frameworks */,
+				8B8ADB9B2F60BFA800958197 /* WalletAuthorizationPinCode in Frameworks */,
+				339AE86C2B5E6C8500C21112 /* DiiaMVPModule in Frameworks */,
+				AABB00C0000000000000DE01 /* WalletCore in Frameworks */,
+				AABB00C1000000000000DE01 /* WalletTransaction in Frameworks */,
+				AABB00C2000000000000DE01 /* WalletIssuing in Frameworks */,
+				AABB00C3000000000000DE01 /* WalletSharing in Frameworks */,
+				AABB00C4000000000000DE01 /* WalletGallery in Frameworks */,
+				AABB00C5000000000000DE01 /* WalletAddDocument in Frameworks */,
+				AABB00C6000000000000DE01 /* WalletMenu in Frameworks */,
+				AABB00C7000000000000DE01 /* WalletContextMenu in Frameworks */,
+				AABB00C8000000000000DE01 /* WalletSplashScreen in Frameworks */,
+				AABB00C9000000000000DE01 /* WalletScannerBarcode in Frameworks */,
+				AABB00CA000000000000DE01 /* WalletAppStorage in Frameworks */,
+				AABB00CB000000000000DE01 /* WalletEngine in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42F9229629FBDC820072DDC1 = {
+			isa = PBXGroup;
+			children = (
+				8B8ADB962F60BEA600958197 /* LocalPackages */,
+				332236032B87927700E6B7AF /* README.md */,
+				8B4528212F641C060024707E /* DiiaGovStackWallet */,
+				42F922A029FBDC820072DDC1 /* Products */,
+				42F93A2429FFBAF30072DDC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42F922A029FBDC820072DDC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42F9229F29FBDC820072DDC1 /* DiiaGovStackWallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42F93A2429FFBAF30072DDC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42F9229E29FBDC820072DDC1 /* DiiaGovStackWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F922B329FBDC820072DDC1 /* Build configuration list for PBXNativeTarget "DiiaGovStackWallet" */;
+			buildPhases = (
+				332235FC2B86640A00E6B7AF /* Swiftlint Run Script */,
+				42F9229B29FBDC820072DDC1 /* Sources */,
+				42F9229C29FBDC820072DDC1 /* Frameworks */,
+				42F9229D29FBDC820072DDC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8B4528212F641C060024707E /* DiiaGovStackWallet */,
+				8B8ADB962F60BEA600958197 /* LocalPackages */,
+			);
+			name = DiiaGovStackWallet;
+			packageProductDependencies = (
+				33C550402B48B6A200E100CD /* Lottie */,
+				339AE86B2B5E6C8500C21112 /* DiiaMVPModule */,
+				9487B53E2B76594800571A1D /* Alamofire */,
+				9487B5412B765B8600571A1D /* ReactiveKit */,
+				1697A2AE2F43A80A000FA2D0 /* WalletDocumentsCommonTypes */,
+				1697A2B02F43A80A000FA2D0 /* WalletDocumentsCore */,
+				8B8ADB982F60BFA800958197 /* WalletAuthorization */,
+				8B8ADB9A2F60BFA800958197 /* WalletAuthorizationPinCode */,
+				AABB00C0000000000000DE02 /* WalletCore */,
+				AABB00C1000000000000DE02 /* WalletTransaction */,
+				AABB00C2000000000000DE02 /* WalletIssuing */,
+				AABB00C3000000000000DE02 /* WalletSharing */,
+				AABB00C4000000000000DE02 /* WalletGallery */,
+				AABB00C5000000000000DE02 /* WalletAddDocument */,
+				AABB00C6000000000000DE02 /* WalletMenu */,
+				AABB00C7000000000000DE02 /* WalletContextMenu */,
+				AABB00C8000000000000DE02 /* WalletSplashScreen */,
+				AABB00C9000000000000DE02 /* WalletScannerBarcode */,
+				AABB00CA000000000000DE02 /* WalletAppStorage */,
+				AABB00CB000000000000DE02 /* WalletEngine */,
+			);
+			productName = DiiaGovStackWallet;
+			productReference = 42F9229F29FBDC820072DDC1 /* DiiaGovStackWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42F9229729FBDC820072DDC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					42F9229E29FBDC820072DDC1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 42F9229A29FBDC820072DDC1 /* Build configuration list for PBXProject "DiiaGovStackWallet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42F9229629FBDC820072DDC1;
+			packageReferences = (
+				42F93A432A0104AA0072DDC1 /* XCRemoteSwiftPackageReference "ios-mvpmodule" */,
+				33C5503F2B48B6A200E100CD /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				9487B53D2B76594800571A1D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9487B5402B765B8600571A1D /* XCRemoteSwiftPackageReference "ReactiveKit" */,
+				1697A2A62F43A5BA000FA2D0 /* XCRemoteSwiftPackageReference "commontypes" */,
+				1697A2A82F43A636000FA2D0 /* XCRemoteSwiftPackageReference "core-common-services" */,
+			);
+			productRefGroup = 42F922A029FBDC820072DDC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42F9229E29FBDC820072DDC1 /* DiiaGovStackWallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42F9229D29FBDC820072DDC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332236042B87927800E6B7AF /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		332235FC2B86640A00E6B7AF /* Swiftlint Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swiftlint Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$SKIP_SWIFTLINT\" = \"1\" ]; then\n  echo \"Skipping SwiftLint because SKIP_SWIFTLINT=1\"\n  exit 0\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42F9229B29FBDC820072DDC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		42F922B129FBDC820072DDC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SWLVM6963D;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42F922B229FBDC820072DDC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SWLVM6963D;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42F922B429FBDC820072DDC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWLVM6963D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiiaGovStackWallet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Diia GovStack Wallet";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to share identity documents with verifiers nearby.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access to scan QR codes and barcodes.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "This app uses Face ID to securely sign and share your identity documents.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.wallet.dev.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		42F922B529FBDC820072DDC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 82RMAUR76P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiiaGovStackWallet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Diia GovStack Wallet";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to share identity documents with verifiers nearby.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access to scan QR codes and barcodes.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "This app uses Face ID to securely sign and share your identity documents.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.govstack.digitalwallet.app.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Diia_GovStack_Wallet_distribution;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42F9229A29FBDC820072DDC1 /* Build configuration list for PBXProject "DiiaGovStackWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F922B129FBDC820072DDC1 /* Debug */,
+				42F922B229FBDC820072DDC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F922B329FBDC820072DDC1 /* Build configuration list for PBXNativeTarget "DiiaGovStackWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F922B429FBDC820072DDC1 /* Debug */,
+				42F922B529FBDC820072DDC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1697A2A62F43A5BA000FA2D0 /* XCRemoteSwiftPackageReference "commontypes" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gittool.ukrosoft.com.ua/space-govstack/bb-wallet/ios/packages/commontypes.git";
+			requirement = {
+				branch = govstack/euwallet;
+				kind = branch;
+			};
+		};
+		1697A2A82F43A636000FA2D0 /* XCRemoteSwiftPackageReference "core-common-services" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gittool.ukrosoft.com.ua/space-govstack/bb-wallet/ios/packages/core-common-services.git";
+			requirement = {
+				branch = govstack/euwallet;
+				kind = branch;
+			};
+		};
+		33C5503F2B48B6A200E100CD /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.6.0;
+			};
+		};
+		42F93A432A0104AA0072DDC1 /* XCRemoteSwiftPackageReference "ios-mvpmodule" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/diia-open-source/ios-mvpmodule.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		9487B53D2B76594800571A1D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.4.3;
+			};
+		};
+		9487B5402B765B8600571A1D /* XCRemoteSwiftPackageReference "ReactiveKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DeclarativeHub/ReactiveKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.16.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1697A2AE2F43A80A000FA2D0 /* WalletDocumentsCommonTypes */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalletDocumentsCommonTypes;
+		};
+		1697A2B02F43A80A000FA2D0 /* WalletDocumentsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalletDocumentsCore;
+		};
+		339AE86B2B5E6C8500C21112 /* DiiaMVPModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42F93A432A0104AA0072DDC1 /* XCRemoteSwiftPackageReference "ios-mvpmodule" */;
+			productName = DiiaMVPModule;
+		};
+		33C550402B48B6A200E100CD /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33C5503F2B48B6A200E100CD /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		8B8ADB982F60BFA800958197 /* WalletAuthorization */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalletAuthorization;
+		};
+		8B8ADB9A2F60BFA800958197 /* WalletAuthorizationPinCode */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalletAuthorizationPinCode;
+		};
+		9487B53E2B76594800571A1D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9487B53D2B76594800571A1D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		9487B5412B765B8600571A1D /* ReactiveKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9487B5402B765B8600571A1D /* XCRemoteSwiftPackageReference "ReactiveKit" */;
+			productName = ReactiveKit;
+		};
+		AABB00C0000000000000DE02 /* WalletCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalletCore;
+		};
+		AABB00C1000000000000DE02 /* WalletTransaction */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalletTransaction;
+		};
+		AABB00C2000000000000DE02 /* WalletIssuing */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalletIssuing;
+		};
+		AABB00C3000000000000DE02 /* WalletSharing */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalletSharing;
+		};
+		AABB00C4000000000000DE02 /* WalletGallery */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalletGallery;
+		};
+		AABB00C5000000000000DE02 /* WalletAddDocument */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalletAddDocument;
+		};
+		AABB00C6000000000000DE02 /* WalletMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalletMenu;
+		};
+		AABB00C7000000000000DE02 /* WalletContextMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalletContextMenu;
+		};
+		AABB00C8000000000000DE02 /* WalletSplashScreen */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalletSplashScreen;
+		};
+		AABB00C9000000000000DE02 /* WalletScannerBarcode */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalletScannerBarcode;
+		};
+		AABB00CA000000000000DE02 /* WalletAppStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalletAppStorage;
+		};
+		AABB00CB000000000000DE02 /* WalletEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalletEngine;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 42F9229729FBDC820072DDC1 /* Project object */;
+}

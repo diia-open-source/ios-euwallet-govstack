@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "commontypes",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gittool.ukrosoft.com.ua/space-govstack/bb-wallet/ios/packages/commontypes.git",
+      "state" : {
+        "branch" : "govstack/euwallet",
+        "revision" : "515a2ed9c74445c0fbf288605600e32d45559f7a"
+      }
+    },
+    {
+      "identity" : "ios-mvpmodule",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/diia-open-source/ios-mvpmodule.git",
+      "state" : {
+        "revision" : "5d9ed70ec64b8557e0b85329628da81fe1df7081",
+        "version" : "1.0.16"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "revision" : "2ef543ee21d63734e1c004ad6c870255e8716c50",
+        "version" : "7.12.0"
+      }
+    },
+    {
+      "identity" : "lottie-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-spm.git",
+      "state" : {
+        "revision" : "69faaefa7721fba9e434a52c16adf4329c9084db",
+        "version" : "4.6.0"
+      }
+    },
+    {
+      "identity" : "swiftmessages",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftKickMobile/SwiftMessages",
+      "state" : {
+        "revision" : "62e12e138fc3eedf88c7553dd5d98712aa119f40",
+        "version" : "9.0.9"
+      }
+    }
+  ],
+  "version" : 2
+}

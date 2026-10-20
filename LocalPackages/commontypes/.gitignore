@@ -1,0 +1,9 @@
+.DS_Store
+
+.swiftpm/xcode/package.xcworkspace/xcuserdata
+.swiftpm/xcode/xcuserdata
+Sources/.DS_Store
+/DerivedData
+
+# automation stuff
+Scripts/xcove_output

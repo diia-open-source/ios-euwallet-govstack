@@ -1,0 +1,306 @@
+// MARK: - Accessibility
+"general_accessibility_close" = "Close";
+"general_accessibility_back_button_label" = "Back";
+"main_screen_accessibility_top_qr_scanner_button" = "Scan QR code";
+"main_screen_accessibility_bottom_bar_cell_have_updates" = "Has updates.";
+
+"documents_accessibility_change_order_label" = "Change order of %@";
+"documents_accessibility_change_order_hint" = "Double tap and hold. Wait for the sound, then drag to reorder.";
+"documents_accessibility_change_order_announce" = "Moved to row %d of %d";
+
+// MARK: - General
+"general_cancel" = "Cancel";
+"general_problem_ok" = "Got it";
+"wallet_provider_unexpected_response" = "Unexpected response from wallet provider.";
+"wallet_provider_http_error" = "Wallet provider returned HTTP %d.";
+"wallet_no_issuers_configured" = "No issuers configured.";
+
+// MARK: - Splash Screen
+"splash_screen_title" = "Hello 👋";
+
+// MARK: - Authorization
+"authorization_welcome" = "Hello 👋";
+"authorization_authorization" = "Authorization";
+
+"authorization_forget" = "Forgot your sign-in code?";
+"authorization_triple_error" = "You entered the wrong code three times";
+"authorization_repeat" = "If you log out, all documents will be removed. You'll need to re-authorize to add them again.";
+"authorization_repeat_after_attempts" = "Re-authorize in the application";
+"authorization_authorize" = "Log out";
+"authorization_info" = "Information";
+"authorization_personal_data_message" = "Personal data processing notice";
+
+"authorization_enter_pin_title" = "Sign-in code";
+
+"authorization_dont_remember_pin" = "I forgot my sign-in code";
+
+"authorization_new_pin_details" = "You'll use this code to\nsign in to the app";
+"authorization_repeat_pin_details" = "Make sure you entered it correctly\nand can remember it";
+
+// MARK: - Documents accessibility
+"documents_accessibility_no_internet" = "No internet connection. Data is not being updated.";
+
+// MARK: - DocumentsGeneral
+"document_reordering_title" = "Change the order";
+"document_reordering_docs_number_small" = "%@ documents";
+"document_reordering_docs_number_big" = "%@ documents";
+"document_reordering_stub_title" = "No documents yet";
+"document_reordering_stub_description" = "Add documents to your wallet to change their order.";
+"document_general_full_information" = "Full information";
+"document_general_revoke_document" = "Delete document";
+
+// MARK: - Menu
+"menu_support" = "Support";
+"menu_title_settings" = "Settings";
+"menu_title_transactions" = "Transaction log";
+"menu_title_scan_qr" = "Scan QR";
+"menu_version" = "Version : %@";
+"menu_change_pin" = "Change sign-in code";
+"menu_logout" = "Log out";
+"menu_logout_title" = "Log out of the app?";
+"menu_logout_message" = "If you log out, all documents will be removed. You'll need to re-authorize to add them again.";
+"menu_logout_cancel" = "Cancel";
+
+"menu_change_pin_success_emoji" = "👍";
+"menu_change_pin_success_title" = "Code changed";
+"menu_change_pin_success_description" = "You have changed your app sign-in code";
+"menu_change_pin_thank" = "Done";
+
+// MARK: - Settings
+"settings_docs_order" = "Change the order of documents";
+"settings_biometry_toggle" = "Allow %@";
+
+// MARK: - Main
+"main_screen_feed" = "Feed";
+"main_screen_menu" = "Menu";
+"main_screen_documents" = "Documents";
+
+// MARK: - QRCodeScanner
+"qr_scanner_title" = "Scanner";
+"qr_scanner_description" = "Point your camera at the document's QR code";
+"photo_problem" = "A camera error occurred";
+"photo_problem_description" = "If this error persists, contact support or try using a different device";
+
+"permissions_camera_not_granted" = "Camera access not granted";
+"permissions_camera_settings" = "Camera access is required for the following feature. Go to Settings to enable it?";
+"permissions_settings" = "Settings";
+"permissions_exit" = "Close";
+
+"qr_incorrect_code" = "The QR code is not registered";
+
+// MARK: - DocumentsCopyRequest
+"doc_copy_title" = "Request for digital\ncopies of documents";
+
+// MARK: - User identification
+"user_identification_start_title" = "User identity verification";
+"user_identification_start_details" = "To protect your personal data, the app will request identity verification once every 30 days.\n\nAccess to data in the app is only available upon successful verification. This ensures the security of your data.\n\nTo verify your identity, choose a verification method and follow the instructions.";
+
+// MARK: - Errors
+"error_no_internet" = "No internet connection";
+
+// MARK: - Feed
+"feed_ticker_label" = "Feed";
+"feed_qr_title" = "Scan QR code";
+
+// MARK: - Service
+"services_list_title" = "Services";
+"public_services_search_empty" = "No results found";
+"public_services_search_placeholder" = "Search";
+"public_services_search" = "Search";
+"services_unavailable" = "Services are unavailable";
+
+// MARK: - Document Ticker
+"document_valid_until_ticker" = "Document valid until %@";
+
+// MARK: - Documents
+"pid_document_name" = "National ID of Ukraine";
+"pid_mdoc_document_name" = "PID (mDoc)";
+"pid_sdjwt_document_name" = "PID (SD-JWT VC)";
+"mdl_document_name" = "mDL (mDoc)";
+"document_gender_not_known" = "Not known";
+"document_gender_male" = "Male";
+"document_gender_female" = "Female";
+"document_gender_not_applicable" = "Not applicable";
+"documents_qr_hold_to_reader" = "Hold the QR code up to the reader";
+"eudi_qr_bluetooth_access_required_title" = "Bluetooth Access Required";
+"eudi_qr_bluetooth_access_required_description" = "Enable Bluetooth access in Settings to share your data.";
+"eudi_qr_bluetooth_turn_on_title" = "Turn On Bluetooth";
+"eudi_qr_bluetooth_turn_on_description" = "Enable Bluetooth in Settings to continue.";
+"eudi_qr_bluetooth_settings_button" = "Go to Settings";
+
+// MARK: - Document Descriptions
+"pid_mdoc_document_description" = "EU Digital Identity, ISO 18013-5 mDoc format";
+"pid_sdjwt_document_description" = "EU Digital Identity, SD-JWT VC format";
+"mdl_document_description" = "Mobile Driving Licence, ISO 18013-5 mDoc format";
+"document_issuer" = "Issuer: %@";
+
+// MARK: - Document Revocation
+"document_revoked_title" = "Document expired or revoked";
+"document_revoked_description" = "This document has expired or has been revoked. You can generate a new document.";
+"document_revoked_push_title" = "Document revoked";
+"document_revoked_push_body" = "%@ is no longer valid. Open the app to review it.";
+"document_revoked_remove_action" = "Delete";
+"document_delete_alert_title" = "Delete document?";
+"document_delete_alert_description" = "This will delete your digital document. You can add it again from the document gallery.";
+"document_delete_alert_delete_action" = "Delete document";
+"document_delete_success_title" = "Document successfully deleted";
+"document_delete_error_title" = "Something went wrong";
+
+// MARK: - Document Expiration
+"document_expired_title" = "Document expired or revoked";
+"document_expired_description" = "This document has expired or has been revoked. You can generate a new document.";
+"document_expired_delete_action" = "Delete";
+
+// MARK: - Data Sharing Alerts
+"sharing_success_title" = "Data sent successfully";
+"sharing_success_button" = "Done";
+"sharing_error_title" = "Failed to process the data sharing request";
+"sharing_error_description_default" = "Please try again later";
+"sharing_error_claim_not_found" = "The verifier requested the \"%@\" field, which is not available in your document";
+"sharing_error_document_not_found" = "The verifier requested the \"%@\" document, which is not available in your wallet";
+"sharing_no_documents_title" = "The required document is missing";
+"sharing_no_documents_description" = "Failed to process the data sharing request. Please activate the necessary document";
+"sharing_no_documents_continue" = "Continue";
+"sharing_no_mdoc_title" = "No documents available for sharing";
+"sharing_no_mdoc_description" = "At least one document of type MSO Mdoc is required to proceed";
+"sharing_connection_lost_title" = "Bluetooth connection lost";
+"sharing_connection_lost_description" = "Reshare your data to restore session";
+"sharing_selective_data_warning" = "The distribution of selective data can affect the availability of the service.";
+"sharing_untrusted_verifier_title" = "Untrusted verifier";
+"sharing_untrusted_verifier_description" = "We couldn't verify this requester. For your security, data cannot be shared with untrusted verifiers.";
+"sharing_untrusted_verifier_button" = "Got it";
+"sharing_screen_title" = "Data sharing";
+"sharing_screen_subtitle" = "Request for digital data";
+"sharing_screen_data_optional_info" = "Sharing all requested data is optional. However, providing less information may affect the outcome of your verification.";
+"sharing_screen_description" = "%@ requests your data to conclude the contract.";
+"sharing_screen_button" = "Share data";
+"sharing_default_relying_party" = "Verifier";
+"sharing_default_data_request_info" = "Why we need your data?";
+"sharing_unknown_document" = "Unknown document";
+"sharing_bluetooth_required_for_proximity" = "Bluetooth is required for proximity presentation";
+
+// MARK: - Document Issuance Screen
+"issuance_screen_title" = "eWallet";
+"issuance_screen_subtitle" = "Issuance Request";
+"issuance_screen_description" = "We need your permission and authentication to receive the following document:";
+"issuance_screen_button_add" = "Add document";
+"issuance_screen_button_cancel" = "No, thank you";
+"issuance_success_title" = "The document has been created";
+"issuance_success_description" = "The document has been successfully added to your wallet";
+"issuance_success_button" = "Done";
+"issuance_error_title" = "Couldn't create the document";
+"issuance_generic_error_title" = "Something went wrong";
+"issuance_error_description" = "Something went wrong while creating the document. Try again or try later.";
+"issuance_error_button" = "Cancel";
+"issuance_duplicate_document_title" = "This document has already been added";
+"issuance_duplicate_document_description" = "The scanned document matches one that is already in your wallet.";
+"issuance_pid_not_found_title" = "PID not found";
+"issuance_pid_not_found_description" = "Failed to process the document request. Please create your PID to add other documents.";
+"issuance_unsupported_document_title" = "Unsupported document";
+"issuance_unsupported_document_description" = "This document type isn't supported and can't be added to your wallet.";
+"issuance_untrusted_issuer_title" = "Untrusted issuer";
+"issuance_untrusted_issuer_description" = "We couldn't verify this issuer. For your security, documents from untrusted sources cannot be added to your wallet.";
+"issuance_untrusted_issuer_button" = "Got it";
+"deferred_issuance_pending_title" = "Document requested";
+"deferred_issuance_pending_description" = "Your document has been requested and is being processed. This may take some time.";
+"deferred_issuance_completed_title" = "The deferred document is now available";
+"deferred_issuance_completed_description" = "The document has been successfully added to your wallet.";
+"deferred_issuance_failed_title" = "Document issuance failed";
+"deferred_issuance_failed_description" = "The issuer was unable to provide your document. Please try requesting it again.";
+"deferred_document_issuer_label" = "Issuer:";
+"deferred_document_in_progress_label" = "In progress:";
+"deferred_document_pending_label" = "Pending";
+"deferred_document_time_to_issue_label" = "Time to issue:";
+"deferred_document_time_to_issue_value" = "1-2 hours";
+"transaction_code_screen_title" = "Transaction code";
+"transaction_code_input_title" = "Type the transaction code you received";
+"transaction_code_field_label" = "Code";
+"transaction_code_field_placeholder" = "Enter code";
+"transaction_code_done" = "Done";
+
+// MARK: - Add Document Screen
+"add_document_title" = "Add a document";
+"add_document_description" = "Choose a digital document from the list below to add to your wallet, or scan a QR code.";
+"add_document_choose_from_list" = "Choose from list";
+"add_document_scan_qr" = "Scan QR";
+"add_document_empty_title" = "No new documents available";
+"add_document_empty_description" = "You have already added all digital documents available for this wallet.";
+"add_document_offline_title" = "No internet connection";
+"add_document_offline_description" = "Check your connection and try again.";
+"add_document_offline_retry" = "Try again";
+
+// MARK: - Transaction Logs
+"transaction_log_status_incomplete" = "INCOMPLETE";
+"transaction_log_status_failed" = "FAILED";
+"transaction_log_status_completed" = "COMPLETED";
+"transaction_log_stub_title" = "No transactions yet";
+"transaction_log_stub_description" = "Your completed and pending transactions will appear here.";
+"transaction_log_unidentified_relying_party" = "Unidentified Relying Party";
+"transaction_log_document_deleted" = "Document Deleted";
+"transaction_log_sharing" = "Sharing";
+"transaction_log_issuance" = "Issuing";
+"transaction_log_signing" = "Signing";
+"transaction_log_deletion" = "Deleting";
+"trascation_log_data_shared" = "Data shared:";
+"transaction_details_title" = "Details";
+"transaction_details_document_not_found_title" = "Document is not found";
+"transaction_details_document_not_found_description" = "The information is not available because this document is no longer accessible.";
+"transaction_details_document_not_found_message" = "Document not found: the information is unavailable because it is no longer accessible.";
+
+// MARK: - EUDI Document Labels
+"eudi_label_pid" = "PID";
+"eudi_label_national_id" = "National ID";
+"eudi_label_birth_date" = "Birth Date";
+"eudi_label_date_of_birth" = "Date of birth";
+"eudi_label_nationality" = "Nationality";
+"eudi_label_birth_place" = "Birth Place";
+"eudi_label_place_of_birth" = "Place of birth";
+"eudi_label_sex" = "Sex";
+"eudi_label_issuance_date" = "Issuance Date";
+"eudi_label_expiry_date" = "Expiry Date";
+"eudi_label_issuance_authority" = "Issuance Authority";
+"eudi_label_issuing_country" = "Issuing Country";
+"eudi_label_issuing_jurisdiction" = "Issuing Jurisdiction";
+"eudi_label_personal_administrative_number" = "Personal Administrative Number";
+"eudi_label_resident_address" = "Resident Address";
+"eudi_label_resident_street" = "Resident Street";
+"eudi_label_resident_house_number" = "Resident House Number";
+"eudi_label_resident_city" = "Resident City";
+"eudi_label_resident_state" = "Resident State";
+"eudi_label_resident_country" = "Resident Country";
+"eudi_label_resident_postal_code" = "Resident Postal Code";
+"eudi_label_email_address" = "Email Address";
+"eudi_label_mobile_phone_number" = "Mobile Phone Number";
+"eudi_label_category" = "Category";
+"eudi_label_vehicle_category_code" = "Vehicle Category Code";
+"eudi_label_restrictions" = "Restrictions";
+"eudi_label_age_over_18" = "Age Over 18";
+"eudi_label_age_over_format" = "Age Over %@";
+"eudi_label_age" = "Age";
+"eudi_label_age_birth_year" = "Age Year of Birth";
+"eudi_label_family_name" = "Family Name(s)";
+"eudi_label_given_name" = "Given Name(s)";
+"eudi_label_national_family_name" = "National Family Name(s)";
+"eudi_label_national_given_name" = "National Given Name(s)";
+"eudi_label_administrative_number" = "Administrative Number";
+"eudi_label_date_of_issue" = "Date of issue";
+"eudi_label_authority" = "Authority";
+"eudi_label_distinguishing_sign" = "Distinguishing Sign";
+"eudi_label_height" = "Height";
+"eudi_label_eye_colour" = "Eye Colour";
+"eudi_label_hair_colour" = "Hair Colour";
+"eudi_label_weight" = "Weight";
+"eudi_label_birth_city" = "Settlement of birth";
+"eudi_label_birth_country" = "Birth country";
+"eudi_label_birth_state" = "Region of birth";
+"eudi_label_family_name_birth" = "Surname at birth";
+"eudi_label_given_name_birth" = "Name at birth";
+"eudi_label_gender" = "Gender";
+"eudi_label_issuing_authority" = "Issuing authority";
+"eudi_label_portrait" = "Portrait";
+"eudi_label_signature" = "Signature";
+"eudi_value_male" = "Male";
+"eudi_value_female" = "Female";
+"eudi_value_unknown" = "Unknown";
+"eudi_value_yes" = "yes";
+"eudi_value_no" = "no";
